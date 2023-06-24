@@ -20,8 +20,6 @@ const App = () => {
         <h1>Search item</h1>
         <input type="text" onChange={e=>setItem(e.target.value)}/>
 
-       {
-       item &&  (
         <ul>
           {
             filter.map(item=>(
@@ -29,8 +27,6 @@ const App = () => {
             ))
           }
         </ul>
-       )
-        }
     </div>
   )
 }
