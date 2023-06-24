@@ -2,7 +2,8 @@
 import React,{useEffect, useState} from "react";
 import './../styles/App.css';
 
-const fruits = ["apple", "banana", "cherry", "date", "elderberry", "fig"]
+
+const fruits = ["apple", "banana", "cherry", "date", "elderberry", "fig"];
 const App = () => {
 
   const[item, setItem] = useState("")
